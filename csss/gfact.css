@@ -1,0 +1,51 @@
+.fact>div {
+    position: absolute;
+    font-weight: bold;
+    font-size: 2em;
+    background-color: #fff;
+}
+
+.controls {
+    /* margin-bottom: 30px; */
+    float: right;
+}
+
+.next-button {
+    margin: 10px;
+    padding: 30px;
+    background-color: transparent;
+    border-radius: 15%;
+    color:blueviolet;
+    border: 5px solid blueviolet;
+    font-size: 2.5em;
+}
+
+.btn-linking {
+    display: block;
+}
+
+.uptupin {
+    top: 125px;
+    left: 870px;
+    padding-right: 200px;
+}
+
+.uppin {
+    top: 270px;
+    left: 710px;
+}
+
+.downpin {
+    top: 1140px;
+    left: 980px;
+}
+
+.fret {
+    top: 395px;
+    left: 835px;
+}
+
+.fingbord {
+    top: 620px;
+    left: 835px;
+}

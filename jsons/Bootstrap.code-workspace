@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "../.."
+    },
+    {
+      "path": "../../../../../../Downloads/Bootstrap4_Code/Bootstrap4_Code"
+    }
+  ],
+  "settings": {
+    "editor.formatOnSave": true
+  }
+}

@@ -1,0 +1,23 @@
+.about {
+    margin: 20px 0 30px 0;
+}
+
+input {
+    margin: 0;
+    width: 46%;
+    height: 40px;
+}
+
+.i1,
+.i2 {
+    margin-bottom: 10px;
+}
+
+.i2,
+.i4 {
+    float: right;
+}
+
+h2 {
+    margin-top: 30px;
+}
