@@ -75,8 +75,9 @@ h2 {
     flex-direction: row;
 }
 
+
 .upper_left {
-    width: 50%;
+    width: 60%;
 }
 
 /* .imgslide { */
@@ -91,6 +92,9 @@ h2 {
 }
 
 @media (max-width: 500px) {
+    .upper {
+        flex-direction: column;
+    
     .upper_left {
         width: 100%;
     }
