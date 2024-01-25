@@ -75,6 +75,10 @@ h2 {
     flex-direction: row;
 }
 
+.upper_left {
+    width: 50%;
+}
+
 /* .imgslide { */
 /* border-radius: 30%; */
 /* border: 2px thick double #FF6C22; */
@@ -87,7 +91,7 @@ h2 {
 }
 
 @media (max-width: 500px) {
-    .imgslide img {
+    .upper_left {
         width: 100%;
     }
 }
