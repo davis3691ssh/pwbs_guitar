@@ -59,6 +59,7 @@ section {
 h1 {
     font-size: 3em;
     color: #76453B;
+    overflow: hidden;
 }
 
 h2 {
