@@ -81,9 +81,15 @@ h2 {
 /* } */
 
 .imgslide img {
-    width: 80%;
+    width: 50%;
     /* overflow: hidden; */
     border-radius: 50%;
+}
+
+@media (max-width: 500px) {
+    .imgslide img {
+        width: 100%;
+    }
 }
 
 .learnlist>ul {
