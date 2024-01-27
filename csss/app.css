@@ -91,14 +91,14 @@ h2 {
     border-radius: 50%;
 }
 
-/* @media (max-width: 500px) {
+@media (max-width: 500px) {
     .upper {
         flex-direction: column;
-    
+    }
     .upper_left {
         width: 100%;
     }
-} */
+}
 
 .learnlist>ul {
     text-decoration: none;
