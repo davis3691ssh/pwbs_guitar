@@ -95,7 +95,7 @@ h2 {
     border-radius: 50%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 960px) {
     .upper {
         flex-direction: column;
     }
