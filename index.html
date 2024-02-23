@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="csss/app.css" />
+    <title>Praise with Guitar</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <ul class="nav">
+            <li><a href="#">기타</a></li>
+            <li><a href="#">찬예학</a></li>
+            <li><a href="#">준비</a></li>
+          </ul>
+        </nav>
+        <h1>Praise & Worshiper's Building School</h1>
+        <ul class="logo">
+          <li><a href="#">로그인</a></li>
+        </ul>
+      </header>
+      <section>
+        <div class="main-content">
+          <div class="upper">
+            <div class="upper_left">
+              <div class="imgslide">
+                <div class="slider">
+                  <img src="imgs/HiFriends.JPG" alt="Hi Friends" />
+                </div>
+                <!-- <div class="haeni"><img src="imgs/haeni.JPG" alt="해니" /></div>
+                <div class="slider">
+                  <img src="imgs/saekkan1.JPG" alt="새한" />
+                </div>
+                <div class="slider">
+                  <img src="imgs/saekkan2.JPG" alt="새하한" />
+                </div>
+                <div class="slider">
+                  <img src="imgs/saekkan3.JPG" alt="새하하한" />
+                </div>
+                <div class="slider">
+                  <img src="imgs/saekkan4.JPG" alt="새하하하하하하하하한" />
+                </div>
+                <div class="slider">
+                  <img src="imgs/aihiwn.JPG" alt="아현" />
+                </div> -->
+              </div>
+            </div>
+            <div class="upper_right">
+              <div class="title">
+                <h2>"캄보디아 찬양예배자학교 준비"</h2>
+                <h3>주차별 정리</h3>
+              </div>
+              <div class="learnlist">
+                <ul>
+                  <li class="learnlist_week">
+                    <span id="toggleSpan">내용</span
+                    ><button onclick="toggling()" id="openButton">
+                      펼치기
+                    </button>
+                    <button onclick="toggling()" id="hideButton">접기</button>
+                    <ul class="aboutg" id="lists">
+                      <li id="demo">
+                        <!-- demo - toggle-->
+                        <a href="gabout.html">&dagger; 기타에 대해서</a>
+                      </li>
+                      <!-- <li>
+                        <ul> -->
+                      <li><a href="gfact.html">&dagger; 기타의 구조</a></li>
+                      <li>
+                        <a href="gright.html">
+                          &dagger; 기타를 올바르게 잡는 법
+                        </a>
+                      </li>
+                      <li>
+                        <a href="gtuning.html">
+                          &dagger; 기타 조율(튜닝) 방법
+                        </a>
+                      </li>
+                      <li>
+                        <a href="gfret.html">&dagger; 줄과 지판에 대해서</a>
+                      </li>
+                      <li>
+                        <a href="gstrum.html">&dagger; 스트로크에 대해서</a>
+                      </li>
+                      <li>
+                        <a href="gchord.html">&dagger; 코드에 대해서</a>
+                      </li>
+                      <li>
+                        <a href="gpraise.html">&dagger; 찬양으로 보기</a>
+                      </li>
+                      <li>
+                        <a href="gpack.html">&dagger; 기타를 관리하는 법</a>
+                      </li>
+                      <!-- </ul>
+                      </li> -->
+                    </ul>
+                  </li>
+                  <li class="learnlist_week">
+                    <span>숙제</span>
+                    <ul>
+                      <li>
+                        <a href="weeklypoint.html">&spades; 정리된 목록</a>
+                      </li>
+                      <li>자세한 사항은 밑의 내용들을 참고하십시요.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="hr">
+                    <hr>
+                </div> -->
+          <div class="lower">
+            <ul class="artc artc_first">
+              <li>
+                <dl>
+                  <dt class="moggak">오늘의 말씀; 요한계시록 5장 8절</dt>
+                  <dd>다윗이 군대 지휘관들과 더불어</dd>
+                  <dd>
+                    아삽과 헤만과 여두둔의 자손 중에서 구별하여 섬기게 하되
+                  </dd>
+                  <dd>수금과 비파와 제금을 잡아 신령한 노래를 하게 하였으니</dd>
+                  <dd>그 직무대로 일하는 자의 수효는 이러하니라</dd>
+                </dl>
+              </li>
+              <li>
+                <span class="moggak">인증샷 촬영;</span><br /><i>완료!~</i>
+                <br /><img src="" alt="" /><img src="" alt="" /><img
+                  src=""
+                  alt=""
+                /><img src="" alt="" /><img src="" alt="" />
+              </li>
+            </ul>
+            <ul class="artc artc_second">
+              <li>
+                <span class="moggak"> 녹음한 연습들:</span>
+                <ul>
+                  <li>새한:<audio src=""></audio></li>
+                  <li>사랑:<audio src=""></audio></li>
+                  <li>아현:<audio src=""></audio></li>
+                  <li>해니:<audio src=""></audio></li>
+                  <li>게스트원:<audio src=""></audio></li>
+                </ul>
+              </li>
+              <!-- <li>
+                <span class="moggak">숙제:</span>
+                <ol>
+                  <li>
+                    1. 수업 전에 튜닝 받아오기 - 가능한 사람:
+                    성환/의찬/은철/규리/성찬/다린 등등<input type="text" />
+                  </li>
+                  <li>2.</li>
+                  <li>
+                    3. 김새한님! -> 매일 위의 코드들을 잡는 연습 하기<input type="text" />
+                  </li>
+                  <li>
+                    4. 리듬 1-5번 중 하나를 골라서 좋으신 하나님 코드를 따라
+                    녹음해오기(어려운 사람 생략)<input type="text" />
+                  </li>
+                  <li>
+                    5.
+                    <input type="text" />
+                  </li>
+                </ol>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="jss/index.js">
+
+      // $("#openHideButton").click(function() {
+      //   $("#demo").toggle();
+      // });
+    </script>
+  </body>
+</html>
